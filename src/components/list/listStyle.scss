@@ -1,0 +1,7 @@
+.list-group-numbered {
+    & .list-group-item {
+        &::before {
+            display: none;
+        }
+    }
+}
